@@ -127,4 +127,4 @@ bfloat16 otherwise. See the notebooks for exact settings. Scoring requires only
 
 ## Citation
 
-[[Add thesis citation once submitted.]]
+WIP
