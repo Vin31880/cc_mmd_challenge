@@ -1,0 +1,233 @@
+{
+  "configurations": [
+    {
+      "configuration": "tamil_original",
+      "n": 355,
+      "macro_f1": 0.5961,
+      "accuracy": 0.5972,
+      "neg": {
+        "precision": 0.975,
+        "recall": 0.451,
+        "f1": 0.617
+      },
+      "pos": {
+        "precision": 0.409,
+        "recall": 0.97,
+        "f1": 0.576
+      },
+      "gold_positive_rate": 0.282,
+      "pred_positive_rate": 0.668,
+      "calibration_ratio": 2.37,
+      "confusion": {
+        "tn": 115,
+        "fp": 140,
+        "fn": 3,
+        "tp": 97
+      }
+    },
+    {
+      "configuration": "tamil_irish",
+      "n": 355,
+      "macro_f1": 0.5986,
+      "accuracy": 0.6056,
+      "neg": {
+        "precision": 0.97,
+        "recall": 0.491,
+        "f1": 0.652
+      },
+      "pos": {
+        "precision": 0.382,
+        "recall": 0.955,
+        "f1": 0.545
+      },
+      "gold_positive_rate": 0.248,
+      "pred_positive_rate": 0.62,
+      "calibration_ratio": 2.5,
+      "confusion": {
+        "tn": 131,
+        "fp": 136,
+        "fn": 4,
+        "tp": 84
+      }
+    },
+    {
+      "configuration": "tamil_chinese",
+      "n": 355,
+      "macro_f1": 0.5712,
+      "accuracy": 0.5775,
+      "neg": {
+        "precision": 0.969,
+        "recall": 0.459,
+        "f1": 0.623
+      },
+      "pos": {
+        "precision": 0.357,
+        "recall": 0.953,
+        "f1": 0.519
+      },
+      "gold_positive_rate": 0.239,
+      "pred_positive_rate": 0.639,
+      "calibration_ratio": 2.67,
+      "confusion": {
+        "tn": 124,
+        "fp": 146,
+        "fn": 4,
+        "tp": 81
+      }
+    },
+    {
+      "configuration": "malayalam_original",
+      "n": 200,
+      "macro_f1": 0.7339,
+      "accuracy": 0.735,
+      "neg": {
+        "precision": 0.86,
+        "recall": 0.667,
+        "f1": 0.751
+      },
+      "pos": {
+        "precision": 0.626,
+        "recall": 0.838,
+        "f1": 0.717
+      },
+      "gold_positive_rate": 0.4,
+      "pred_positive_rate": 0.535,
+      "calibration_ratio": 1.34,
+      "confusion": {
+        "tn": 80,
+        "fp": 40,
+        "fn": 13,
+        "tp": 67
+      }
+    },
+    {
+      "configuration": "cmmd_original",
+      "n": 340,
+      "macro_f1": 0.7496,
+      "accuracy": 0.8206,
+      "neg": {
+        "precision": 0.807,
+        "recall": 0.975,
+        "f1": 0.883
+      },
+      "pos": {
+        "precision": 0.891,
+        "recall": 0.471,
+        "f1": 0.616
+      },
+      "gold_positive_rate": 0.306,
+      "pred_positive_rate": 0.162,
+      "calibration_ratio": 0.53,
+      "confusion": {
+        "tn": 230,
+        "fp": 6,
+        "fn": 55,
+        "tp": 49
+      }
+    },
+    {
+      "configuration": "cmmd_indian",
+      "n": 340,
+      "macro_f1": 0.8027,
+      "accuracy": 0.8824,
+      "neg": {
+        "precision": 0.893,
+        "recall": 0.966,
+        "f1": 0.928
+      },
+      "pos": {
+        "precision": 0.824,
+        "recall": 0.575,
+        "f1": 0.677
+      },
+      "gold_positive_rate": 0.215,
+      "pred_positive_rate": 0.15,
+      "calibration_ratio": 0.7,
+      "confusion": {
+        "tn": 258,
+        "fp": 9,
+        "fn": 31,
+        "tp": 42
+      }
+    },
+    {
+      "configuration": "mami_indian",
+      "n": 1000,
+      "macro_f1": 0.6058,
+      "accuracy": 0.608,
+      "neg": {
+        "precision": 0.864,
+        "recall": 0.433,
+        "f1": 0.577
+      },
+      "pos": {
+        "precision": 0.493,
+        "recall": 0.89,
+        "f1": 0.635
+      },
+      "gold_positive_rate": 0.383,
+      "pred_positive_rate": 0.691,
+      "calibration_ratio": 1.8,
+      "confusion": {
+        "tn": 267,
+        "fp": 350,
+        "fn": 42,
+        "tp": 341
+      }
+    },
+    {
+      "configuration": "mami_chinese",
+      "n": 1000,
+      "macro_f1": 0.7269,
+      "accuracy": 0.748,
+      "neg": {
+        "precision": 0.748,
+        "recall": 0.576,
+        "f1": 0.651
+      },
+      "pos": {
+        "precision": 0.748,
+        "recall": 0.867,
+        "f1": 0.803
+      },
+      "gold_positive_rate": 0.592,
+      "pred_positive_rate": 0.686,
+      "calibration_ratio": 1.16,
+      "confusion": {
+        "tn": 235,
+        "fp": 173,
+        "fn": 79,
+        "tp": 513
+      }
+    }
+  ],
+  "inter_annotator_agreement": {
+    "tamil": {
+      "original_labels vs irish_labels": 0.86,
+      "original_labels vs chinese_labels": 0.84,
+      "irish_labels vs chinese_labels": 0.851
+    },
+    "malayalam": {
+      "original_labels vs irish_labels": 0.96,
+      "original_labels vs chinese_labels": 0.925,
+      "irish_labels vs chinese_labels": 0.925
+    },
+    "cmmd": {
+      "original_labels vs indian_labels": 0.85,
+      "original_labels vs irish_labels": 0.879,
+      "indian_labels vs irish_labels": 0.882
+    },
+    "mami": {
+      "indian_labels vs chinese_labels": 0.715
+    }
+  },
+  "cross_lens_attribution_mami_indian": {
+    "false_positives": 350,
+    "fp_agreeing_with_other_population": 198,
+    "false_negatives": 42,
+    "fn_agreeing_with_other_population": 13,
+    "errors_recovered_under_other_lens": "211/392 (53.8%)",
+    "macro_f1_vs_target_labels": 0.606,
+    "macro_f1_vs_other_labels": 0.723
+  }
+}
